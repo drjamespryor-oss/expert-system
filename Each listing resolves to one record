@@ -1,0 +1,14 @@
+
+{
+  "job_id": "senior-backend-engineer-bengaluru-a1b2c3",
+  "title": "Senior Backend Engineer",
+  "company": "Example Technologies",
+  "locations": ["Bengaluru", "Remote"],
+  "salary": "₹30L - ₹45L PA",
+  "skills": ["Go", "PostgreSQL", "Kubernetes", "gRPC"],
+  "experience_min_years": 5,
+  "experience_max_years": 9,
+  "remote": true,
+  "url": "https://cutshort.io/job/...",
+  "scraped_at": "2026-07-30T09:14:22.104Z"
+}
