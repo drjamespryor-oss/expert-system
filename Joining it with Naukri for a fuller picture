@@ -1,0 +1,12 @@
+Neither board alone gives you the Indian tech market. A pattern that works well:
+
+Pull CutShort for startup and product-company roles.
+Pull Naukri for the same skill keywords to capture enterprise and services hiring.
+Join on normalised company name, and treat a role appearing on both as a stronger hiring signal than one appearing on either.
+That join is also how you spot companies moving from one hiring channel to the other, which tends to precede a change in hiring volume.
+
+Use in Claude, ChatGPT & any MCP agent
+Both scrapers are exposed as MCP tools, so an agent can query them directly:
+
+https://mcp.apify.com/?tools=themineworks/cutshort-jobs-scraper
+Or use the full The Mine Works MCP server for 29 data tools in one endpoint, including Naukri, IndiaMART, 
