@@ -1,2 +1,3 @@
 # expert-system
 How to Scrape CutShort Jobs for India Tech Hiring Data (No API)
+CutShort is where Indian startups post engineering and product roles, and it has no public jobs API. Learn how to extract titles, companies, salary ranges, skills, and experience bands as structured JSON for recruiting feeds and talent market research.
