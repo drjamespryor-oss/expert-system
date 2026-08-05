@@ -1,0 +1,12 @@
+
+from apify_client import ApifyClient
+
+client = ApifyClient("YOUR_APIFY_TOKEN")
+
+run = client.actor("themineworks/cutshort-jobs-scraper").call(run_input={
+    "searchQueries": ["backend engineer"],
+    "maxJobs": 50,
+})
+
+for job in client.dataset(run["defaultDatasetId"]).iterate_items():
+    print(job["title"], job["company"], job.get("salary"), job.get("skills"))
