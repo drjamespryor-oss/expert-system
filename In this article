@@ -1,0 +1,16 @@
+In this article
+01
+What the data looks like
+02
+Why not just scrape it yourself
+03
+Running it as an actor
+04
+Joining it with Naukri for a fuller picture
+05
+Use in Claude, ChatGPT & any MCP agent
+If you are tracking the Indian tech job market, Naukri gives you breadth and CutShort gives you depth. CutShort is where Indian startups list engineering, product, and design roles, which makes it a much denser signal for tech hiring specifically than a general-purpose job board.
+
+It also has no public API. Public search results are the only dependable surface, so extracting anything at scale means scraping.
+
+What the data looks like
