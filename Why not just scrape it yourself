@@ -1,0 +1,6 @@
+
+You can, and for a one-off pull you probably should. The reasons teams stop doing that are consistent:
+
+Salary strings are inconsistent. Ranges appear in lakhs per annum, sometimes per month, sometimes absent, sometimes as a single figure. Normalising this is most of the parsing work.
+Pagination changes. Search result pagination on CutShort is not stable across role categories, and a naive page-increment loop silently stops early or repeats.
+Locations are multi-valued. A single role can list several cities plus a remote flag, and flattening that to one string loses the filter you actually wanted.
